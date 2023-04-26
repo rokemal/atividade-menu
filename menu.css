@@ -3,6 +3,25 @@
     background-color: #123;
 }
 
-.content {
-    padding: 16px;
+#navbar a{
+    float: left;
+    display: block;
+    color: bisque;
+    padding: 17px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.content{
+    padding: 15px;
+}
+
+.sticky{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.sticky + .content{
+    padding: 58px;
 }
