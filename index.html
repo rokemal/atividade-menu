@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <form>
+            <fieldset>
+                <legend><strong>Dados Pessoais</strong></legend>
+                <br>
+               <fieldset class="name">
+                    <legend class="left"><strong>Nome:</strong></legend>
+                <div class="inputBox">                   
+                    <label for="nome"></label>
+                    <input type="text" name="nome" id="nome" class="inputUser" placeholder="Nome completo" required>
+                </div>
+                </fieldset>
+                <br>
+                <div class="icon">
+                    <p><label for="telefone"> <img src="https://img.icons8.com/fluency/25/null/whatsapp.png"/></label>
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" placeholder="Telefone" required>
+                    <label for="facebook"><img src="https://img.icons8.com/office/25/null/facebook-new.png"/></label>
+                    <input type="text" name="facebook" id="facebook" class="inputUser" placeholder="Facebook" required></p>
+                </div>
+                <div class="icon">
+                    <p><label for="youtube"><img src="https://img.icons8.com/fluency/25/null/youtube-play.png"/></label>
+                    <input type="text" name="youtube" id="youtube" class="inputUser" placeholder="Youtube" required>
+                    <label for="instagram"><img src="https://img.icons8.com/officel/25/null/instagram-new.png"/></label>
+                    <input type="text" name="instagram" id="instagram" class="inputUser" placeholder="Instagram" required></p>
+                </div>
+                <br>
+                 <div class="inputBox">
+                    <label for="email"><strong>Email:</strong> </label>
+                    <input type="email" name="email" id="email" class="inputUser" placeholder="Email" required>
+                 </div><br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend><strong>Dados Escolares</strong></legend>
+                <br>
+                <fieldset class="materia">
+                    <legend class="left"><strong>Matéria:</strong></legend>
+                    <div class="inputBox">                   
+                        <label for="materia"></label>
+                        <input type="text" name="materia" id="materia" class="inputUser" placeholder="Matéria" required>
+                    </div>
+                </fieldset>
+                <br>
+                <div class="inputBox">                    
+                    <label for="escola"><strong>Escola:</strong></label>
+                    <input type="text" name="escola" id="escola" class="inputUser" placeholder="Instituição educacional" required>
+                </div>
+                <div class="inputBox">                   
+                    <p><label for="curso"><strong>Curso:</strong></label>
+                    <input type="text" name="curso" id="curso" class="inputUser" placeholder="Curso técnico" required>
+                    <label for="ano"><strong>Ano:</strong></label>
+                    <input type="text" name="ano" id="ano" class="inputUser" placeholder="Digite aqui" required></p>
+                </div> 
+                <div class="inputBox">                    
+                    <p><label for="professor"><strong>Professor(a):</strong></label>
+                    <input type="text" name="escola" id="professor" class="inputUser" placeholder="Instrutor" required>                  
+                    <label for="Sala"><strong>Sala:</strong></label>
+                    <select name="sala">
+                        <option value="1ds">1° D.S</option>
+                        <option value="2ds">2° D.S</option>
+                        <option value="3ds">3° D.S</option>
+                    </select>
+                </div>
+            </fieldset>
+            <div class="cronograma">
+                <h1><strong>Horários</strong></h1>
+                <table class="tabela" style="width: 100%;">
+                    <tr>
+                        <th style="width: 8%;"><img src="https://img.icons8.com/carbon-copy/50/null/alarm-clock--v1.png"/></th>
+                        <th style="width: 8%;" class="claro">Segunda</th>
+                        <th style="width: 8%;" class="escuro">Terça</th>
+                        <th style="width: 8%;" class="claro">Quarta</th>
+                        <th style="width: 8%;" class="escuro">Quinta</th>
+                        <th style="width: 8%;" class="claro">Sexta</th>
+                        <th style="width: 8%;" class="escuro">Sábado</th>
+                    </tr>
+                    <tr>
+                        <td class="nao"><input type="time" class="hora"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                    </tr>
+                    <tr>
+                        <td class="sim"><input type="time" class="hora"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                    </tr>
+                    <tr>
+                        <td class="nao"><input type="time" class="hora"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                    </tr>
+                    <tr>
+                        <td class="sim"><input type="time" class="hora"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                    </tr>
+                    <tr>
+                        <td class="nao"><input type="time" class="hora"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                    </tr>
+                    <tr>
+                        <td class="sim"><input type="time" class="hora"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                    </tr>
+                    <tr>
+                        <td class="nao"><input type="time" class="hora"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                    </tr>
+                    <tr>
+                        <td class="sim"><input type="time" class="hora"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                    </tr>
+                    <tr>
+                        <td class="nao"><input type="time" class="hora"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                        <td class="nao"><input type="text" class="disciplina"></td>
+                    </tr>
+                    <tr>
+                        <td class="sim"><input type="time" class="hora"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                        <td class="sim"><input type="text" class="disciplina"></td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <div class="prova">
+                <h1 class="titulo_prova"><strong>Provas</strong></h1>
+                <table class="prova" style="width: 100%;">
+                    <tr>
+                        <th style="width: 8%;" class="topico">Mês</th>
+                        <th style="width: 40%;" class="topico">Conteúdo</th>
+                        <th style="width: 8%;" class="topico">Data</th>
+                        <th style="width: 8%;" class="topico">Horário</th>
+                        <th style="width: 8%;" class="topico">Nota</th>
+                    </tr>
+                    <tr>
+                        <td class="mes"><input type="text" class="mes1"></td>
+                        <td class="conteudo"><input type="text" class="conteudo1"></td>
+                        <td class="data"><input type="date" class="data1"></td>
+                        <td class="hrs"><input type="time" class="hrs1"></td>
+                        <td class="nota"><select name="nota" class="nota1">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>                    
+                    </tr>
+                    <tr>
+                        <td class="mes"><input type="text" class="mes1"></td>
+                        <td class="conteudo"><input type="text" class="conteudo1"></td>
+                        <td class="data"><input type="date" class="data1"></td>
+                        <td class="hrs"><input type="time" class="hrs1"></td>
+                        <td class="nota"><select name="nota" class="nota1">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>                   
+                    </tr>
+                    <tr>
+                        <td class="mes"><input type="text" class="mes1"></td>
+                        <td class="conteudo"><input type="text" class="conteudo1"></td>
+                        <td class="data"><input type="date" class="data1"></td>
+                        <td class="hrs"><input type="time" class="hrs1"></td>
+                        <td class="nota"><select name="nota" class="nota1">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>                   
+                    </tr>
+                    <tr>
+                        <td class="mes"><input type="text" class="mes1"></td>
+                        <td class="conteudo"><input type="text" class="conteudo1"></td>
+                        <td class="data"><input type="date" class="data1"></td>
+                        <td class="hrs"><input type="time" class="hrs1"></td>
+                        <td class="nota"><select name="nota" class="nota1">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>                    
+                    </tr>
+                    <tr>
+                        <td class="mes"><input type="text" class="mes1"></td>
+                        <td class="conteudo"><input type="text" class="conteudo1"></td>
+                        <td class="data"><input type="date" class="data1"></td>
+                        <td class="hrs"><input type="time" class="hrs1"></td>
+                        <td class="nota"><select name="nota" class="nota1">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>                    
+                    </tr>
+                    <tr>
+                        <td class="mes"><input type="text" class="mes1"></td>
+                        <td class="conteudo"><input type="text" class="conteudo1"></td>
+                        <td class="data"><input type="date" class="data1"></td>
+                        <td class="hrs"><input type="time" class="hrs1"></td>
+                        <td class="nota"><select name="nota" class="nota1">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>                    
+                    </tr>
+                    <tr>
+                        <td class="mes"><input type="text" class="mes1"></td>
+                        <td class="conteudo"><input type="text" class="conteudo1"></td>
+                        <td class="data"><input type="date" class="data1"></td>
+                        <td class="hrs"><input type="time" class="hrs1"></td>
+                        <td class="nota"><select name="nota" class="nota1">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>                    
+                    </tr>
+                    <tr>
+                        <td class="mes"><input type="text" class="mes1"></td>
+                        <td class="conteudo"><input type="text" class="conteudo1"></td>
+                        <td class="data"><input type="date" class="data1"></td>
+                        <td class="hrs"><input type="time" class="hrs1"></td>
+                        <td class="nota"><select name="nota" class="nota1">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>                    
+                    </tr>
+                    <tr>
+                        <td class="mes"><input type="text" class="mes1"></td>
+                        <td class="conteudo"><input type="text" class="conteudo1"></td>
+                        <td class="data"><input type="date" class="data1"></td>
+                        <td class="hrs"><input type="time" class="hrs1"></td>
+                        <td class="nota"><select name="nota" class="nota1">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td class="mes"><input type="text" class="mes1"></td>
+                        <td class="conteudo"><input type="text" class="conteudo1"></td>
+                        <td class="data"><input type="date" class="data1"></td>
+                        <td class="hrs"><input type="time" class="hrs1"></td>
+                        <td class="nota"><select name="nota" class="nota1">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>                    
+                    </tr>
+                    <tr>
+                        <td class="mes"><input type="text" class="mes1"></td>
+                        <td class="conteudo"><input type="text" class="conteudo1"></td>
+                        <td class="data"><input type="date" class="data1"></td>
+                        <td class="hrs"><input type="time" class="hrs1"></td>
+                        <td class="nota"><select name="nota" class="nota1">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>                    
+                    </tr>
+                    <tr>
+                        <td class="mes"><input type="text" class="mes1"></td>
+                        <td class="conteudo"><input type="text" class="conteudo1"></td>
+                        <td class="data"><input type="date" class="data1"></td>
+                        <td class="hrs"><input type="time" class="hrs1"></td>
+                        <td class="nota"><select name="nota" class="nota1">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <div class="trabalhos">
+                <h1 class="titulo_trabalhos"><strong>Trabalhos</strong></h1>
+                <table class="trabalhos" style="width: 100%;">
+                    <tr>
+                        <th style="width: 8%;" class="topico">Data</th>
+                        <th style="width: 60%;" class="topico">Assunto</th>
+                        <th style="width: 8%;" class="topico">Nota</th>
+                    </tr>
+                    <tr>
+                        <td class="dia"><input type="text" class="dia1"></td>
+                        <td class="assunto"><input type="text" class="assunto1"></td>
+                        <td class="notas"><select name="notas">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td class="dia"><input type="text" class="dia1"></td>
+                        <td class="assunto"><input type="text" class="assunto1"></td>
+                        <td class="notas"><select name="notas">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td class="dia"><input type="text" class="dia1"></td>
+                        <td class="assunto"><input type="text" class="assunto1"></td>
+                        <td class="notas"><select name="notas">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td class="dia"><input type="text" class="dia1"></td>
+                        <td class="assunto"><input type="text" class="assunto1"></td>
+                        <td class="notas"><select name="notas">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td class="dia"><input type="text" class="dia1"></td>
+                        <td class="assunto"><input type="text" class="assunto1"></td>
+                        <td class="notas"><select name="notas">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td class="dia"><input type="text" class="dia1"></td>
+                        <td class="assunto"><input type="text" class="assunto1"></td>
+                        <td class="notas"><select name="notas">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td class="dia"><input type="text" class="dia1"></td>
+                        <td class="assunto"><input type="text" class="assunto1"></td>
+                        <td class="notas"><select name="notas">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td class="dia"><input type="text" class="dia1"></td>
+                        <td class="assunto"><input type="text" class="assunto1"></td>
+                        <td class="notas"><select name="notas">
+                            <option value="i">I</option>
+                            <option value="r">R</option>
+                            <option value="b">B</option>
+                            <option value="mb">MB</option>
+                        </select></td>
+                    </tr>
+                    <br>
+                    <div class="faltas">  
+                        <table class="faltas" style="width: 100%;">                        
+                            <h1 class="titulo_faltas"><strong>Faltas</strong></h1>
+                            <tr>
+                                <th style="width: 25%;" class="topico">Janeiro</th>
+                                <th style="width: 25%;" class="topico">Fevereiro</th>
+                                <th style="width: 25%;" class="topico">Março</th>
+                                <th style="width: 25%;" class="topico">Abril</th>
+                            </tr>
+                            <tr>
+                                <td class="janeiro"><input type="number" class="janeiro1"></td>
+                                <td class="fevereiro"><input type="number" class="fevereiro1"></td>
+                                <td class="março"><input type="number" class="março1"></td>
+                                <td class="abril"><input type="number" class="abril1"></td>
+                            </tr>
+                            <tr>
+                                <th style="width: 25%;" class="topico">Maio</th>
+                                <th style="width: 25%;" class="topico">Junho</th>
+                                <th style="width: 25%;" class="topico">Julho</th>
+                                <th style="width: 25%;" class="topico">Agosto</th>
+                            </tr>
+                            <tr>
+                                <td class="maio"><input type="number" class="maio1"></td>
+                                <td class="junho"><input type="number" class="junho1"></td>
+                                <td class="julho"><input type="number" class="julho1"></td>
+                                <td class="agosto"><input type="number" class="agosto1"></td>
+                            </tr>
+                            <tr>
+                                <th style="width: 25%;" class="topico">Setembro</th>
+                                <th style="width: 25%;" class="topico">Outubro</th>
+                                <th style="width: 25%;" class="topico">Novembro</th>
+                                <th style="width: 25%;" class="topico">Dezembro</th>
+                            </tr>
+                            <tr>
+                                <td class="setembro"><input type="number" class="setembro1"></td>
+                                <td class="outubro"><input type="number" class="outubro1"></td>
+                                <td class="novembro"><input type="number" class="novembro1"></td>
+                                <td class="dezembro"><input type="number" class="dezembro1"></td>
+                            </tr>
+                        </table>
+                    </div>
+        </form>
+    </div>        
+</body>
+</html> 

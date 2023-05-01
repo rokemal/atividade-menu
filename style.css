@@ -1,0 +1,383 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,#B9EDDD,#569DAA);
+    color: #146C94;
+}
+legend{
+    text-align: center;
+}
+.left{
+    text-align: justify;
+}
+fieldset{
+    border-radius: 15px;
+    border: 4px solid #146C94;
+}
+.name{
+    border: 3px solid #146C94;
+    text-align: left;
+}
+.materia{
+    border: 3px solid #146C94;
+    text-align: left;
+}
+.inputUser{
+    background: none;
+    border: none;
+    width: 300px;
+}
+#professor{
+    width: 251px;
+}
+#nome{
+    width: 1800px;
+}
+#materia{
+    width: 1800px;
+}
+select{
+    background: none;
+    border: none;
+}
+table, th, td{
+    border: no;
+    border-color: black;
+    border-radius: 15px;
+    background: none;
+    padding: 12px;
+    width: 13px;
+    align-items: center;
+    align-content: center;
+    border-spacing: 12px;
+
+}
+.hora{
+    background: none;
+    border: none;
+}
+.cronograma{
+    text-align: center;
+}
+.disciplina{
+    background: none;
+    border: none;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+    text-align: center;
+}
+.nao{
+    background: none;
+    border: 1px solid #146C94;
+}
+.sim{
+    background-color: #A6D0DD;
+}
+.escuro{
+    background-color: #146C94;
+    color: white;
+    font-size: 20px;
+}
+.claro{
+    background-color: #3A98B9;
+    color: white;
+    font-size: 20px;
+}
+.topico{
+    border: none;
+    background: none;
+}
+.prova{
+    border: none;
+    background: none;
+}
+.mes{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.mes1{
+    background: none;
+    border: none;
+    width: 130px;
+    margin: 3px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.conteudo{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.conteudo1{
+    background: none;
+    border: none;
+    width: 1000px;
+    margin: 3px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.data{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.data1{
+    background: none;
+    border: none;
+    width: 130px;
+    margin: 3px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.hrs{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.hrs1{
+    background: none;
+    border: none;
+    width: 130px;
+    margin: 3px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.nota{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.nota1{
+    background: none;
+    border: none;
+    width: 130px;
+    margin: 3px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.titulo_prova{
+    text-align: center;
+}
+.dia{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.dia1{
+    background: none;
+    border: none;
+    width: 130px;
+    margin: 3px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.assunto{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.assunto1{
+    background: none;
+    border: none;
+    width: 1500px;
+    margin: 3px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.notas{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.notas1{
+    background: none;
+    border: none;
+    width: 130px;
+    margin: 3px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.titulo_trabalhos{
+    text-align: center;
+}
+.janeiro{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.janeiro1{
+    background: none;
+    border: none;
+    width: 400px;
+    margin: 3px;
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.fevereiro{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.fevereiro1{
+    background: none;
+    border: none;
+    width: 400px;
+    margin: 3px;
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.março{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.março1{
+    background: none;
+    border: none;
+    width: 400px;
+    margin: 3px;
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.abril{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.abril1{
+    background: none;
+    border: none;
+    width: 400px;
+    margin: 3px;
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.maio{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.maio1{
+    background: none;
+    border: none;
+    width: 400px;
+    margin: 3px;
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.junho{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.junho1{
+    background: none;
+    border: none;
+    width: 400px;
+    margin: 3px;
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.julho{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.julho1{
+    background: none;
+    border: none;
+    width: 400px;
+    margin: 3px;
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.agosto{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.agosto1{
+    background: none;
+    border: none;
+    width: 400px;
+    margin: 3px;
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.setembro{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.setembro1{
+    background: none;
+    border: none;
+    width: 400px;
+    margin: 3px;
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.outubro{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.outubro1{
+    background: none;
+    border: none;
+    width: 400px;
+    margin: 3px;
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.novembro{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.novembro1{
+    background: none;
+    border: none;
+    width: 400px;
+    margin: 3px;
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.dezembro{
+    border: 2px solid #146C94;
+    margin: 10px;
+}
+.dezembro1{
+    background: none;
+    border: none;
+    width: 400px;
+    margin: 3px;
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.titulo_faltas{
+    text-align: center;
+}
